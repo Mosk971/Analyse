@@ -27,10 +27,8 @@ body {
                         /* ET-LINE ICONS */
 .et-icon-browser,
 .et-icon-edit,
-.et-icon-presentation,
-.et-icon-wine {
-    font-family: et-line;
-    speak: none;
+.et-icon-presentation {
+    font-family: et-line;    
     font-style: normal;
     font-weight: 400;
     font-variant: normal;
