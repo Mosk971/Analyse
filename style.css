@@ -98,7 +98,38 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.partners-one {
+    
+    font-size: 1.8rem;
+}
+.partners-two{
+    font-size: 1.5rem;
+}
+.partners-tree{
+    font-size: 2rem;
+}
+.partners-four{
+    font-size: 1.4rem;
+}
+.avis{
+    font-size: 1.4rem;
+    
+    font-weight: 600;
+    
+    line-height: 1.9rem;
+}
+.avis+p{
+    font-size: 1.5rem;
+}
+.illus-text{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.introduction{
+    font-size: 1.9rem;
+    font-weight: 300;
+    
+}
 .bloc {
     width: 100%;
     clear: both;
