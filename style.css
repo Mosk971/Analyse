@@ -128,6 +128,9 @@ a:hover {
     font-weight: 300;
     
 }
+.fillit{
+    font-size: 1.2rem;
+}
 .bloc {
     width: 100%;
     clear: both;
