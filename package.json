@@ -1,0 +1,20 @@
+{
+  "name": "analyse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "prefix": "postcss ./css/main.css --use autoprefixer -d ./css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mosk971/Analyse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mosk971/Analyse/issues"
+  },
+  "homepage": "https://github.com/Mosk971/Analyse#readme"
+}
