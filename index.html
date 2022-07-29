@@ -12,13 +12,7 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	 				<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-MD4PWZ2JFX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-MD4PWZ2JFX');
-</script>
 				<!-- Analytics END --> 							   
 </head>
 
@@ -248,11 +242,17 @@
 </div>		
 <!-- Principal conteneur END -->
  <!-- script -->
+ <script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+  
+	gtag('config', 'G-MD4PWZ2JFX');
+  </script>
  <script src="./js/jquery-2.1.0.js"></script>
  <script src="./js/bootstrap.js"></script>
  <script src="./js/blocs.js"></script>
- <script src="./js/jquery.touchSwipe.js" defer></script>
- <script src="./js/gmaps.js"></script>
+ <script src="./js/jquery.touchSwipe.js" defer></script> 
 <!-- script -->
 </body>
 </html>
