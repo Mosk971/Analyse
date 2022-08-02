@@ -251,6 +251,7 @@ a:hover {
     border: 0px;
 }
 
+
 .navbar-toggle:hover {
     background: transparent!important;
 }
@@ -269,7 +270,9 @@ a:hover {
         -webkit-transform: translateY(-50%);
     }
 }
-
+.p2h1{
+    text-align: center;
+}
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
@@ -533,7 +536,13 @@ h1 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
+        margin-right: 4px;
+        list-style: none;
+    }
+    .navbar a{
+        margin-right: 30px;
+        
     }
 }
 
@@ -541,6 +550,7 @@ h1 {
     .b-parallax {
         background-attachment: scroll;
     }
+    
 }
 
 @media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
@@ -584,8 +594,10 @@ h1 {
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
-        float: none!important;
+        float: none!important;        
+        
     }
+    
     .navbar.row {
         margin-left: 0;
         margin-right: 0;
@@ -595,6 +607,7 @@ h1 {
         transform: none;
         -webkit-transform: none;
         -ms-transform: none;
+        
     }
     .nav > li {
         margin-top: 0;
