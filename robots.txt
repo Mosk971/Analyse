@@ -4,4 +4,4 @@ Disallow: /nogooglebot/
 User-agent: *
 Allow: /
 
-Sitemap: https://mosk971.github.io/Analyse/sitemap.xml
+Sitemap: https://mosk971.github.io/Analyse/
